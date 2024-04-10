@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  couponservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-09T08:51:18.227434724Z"
+    dependencies:
+    - name: mysql
+      repository: '@bitnami'
+      version: 10.1.1
+    description: A Helm chart for Kubernetes
+    digest: 7c339c348e66610ec4c4e9dd9646b32679d2fd1c8c90245c828118821d4e6de8
+    name: couponservice
+    type: application
+    urls:
+    - couponservice-0.1.0.tgz
+    version: 0.1.0
+  sirachart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-09T08:51:18.227994613Z"
+    description: A Helm chart for Kubernetes
+    digest: 38eb60aca73f5963723db0f3f712954deea32bcadd67a0083f2a347171a9f10d
+    name: sirachart
+    type: application
+    urls:
+    - sirachart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-09T08:51:18.219644559Z"
